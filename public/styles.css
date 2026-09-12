@@ -1,0 +1,13 @@
+body { background: #fafafa; font-family: Arial, sans-serif; color: #222 }
+.container { max-width: 900px; margin: 32px auto; background: #fff; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.08) }
+h1 { text-align: left; font-size: 20px; margin-bottom: 12px }
+form .row { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap }
+form input { padding: 8px; border: 1px solid #ddd; border-radius: 4px; flex: 1 }
+form button { padding: 8px 12px; border: none; background: #0b79d0; color: white; border-radius: 4px }
+table { width: 100%; border-collapse: collapse }
+thead th { background: #111; color: white; padding: 10px; text-align: left }
+tbody td { padding: 10px; border-bottom: 1px solid #eee }
+.action-btn { margin-right: 6px; padding: 6px 8px; border-radius: 4px; border: none }
+.edit { background: #ffc107 }
+.delete { background: #e53935; color: white }
+.loading { position: fixed; right: 20px; top: 20px; background: rgba(0,0,0,0.75); color: white; padding: 8px 12px; border-radius: 4px }
